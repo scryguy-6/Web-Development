@@ -1,0 +1,36 @@
+/*********************TAG SELECTORS********************/
+/***********used broadly*************/
+h1 {
+  color: red;
+  font-size: 200px;
+}
+
+/***pseudo class used here ":hover" - don't have to call it in html**/
+img:hover {
+  background-color: gold;
+}
+
+/*********************CLASS SELECTORS******************/
+/**********overrides tag selectors, multi use**********/
+/***********elements can have multiple classes********/
+/*************used everywhere*****/
+
+.bacon {
+  background-color: green;
+}
+
+.broccoli {
+  background-color: red;
+}
+
+.circular{
+  border-radius: 100%;
+}
+/*************************ID SELECTORS****************/
+/****single use only, just one element*****/
+/*****elemnts can only have one ID*****/
+/****used sparingly****/
+
+#heading {
+  color: blue;
+}
